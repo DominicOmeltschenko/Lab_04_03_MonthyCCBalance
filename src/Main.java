@@ -9,7 +9,7 @@ public class Main {
         double secondMonth = 0.00;
 
         firstMonth = creditCardBalance + creditCardBalance * INTEREST_RATE;
-        secondMonth = creditCardBalance + creditCardBalance * INTEREST_RATE;
+        secondMonth = firstMonth + firstMonth * INTEREST_RATE;
 
         System.out.println("Your interest with a credit card balance of: " + creditCardBalance + " and a monthly interest rate of: " + INTEREST_RATE + " is: " + firstMonth + " for one month, and: " + secondMonth + " for two months.");
 
